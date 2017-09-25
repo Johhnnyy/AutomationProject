@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteDhiraj" parallel="tests">
+  <test name="TestIOS1_Dhiraj">
+  	<parameter name="deviceQuery" value="@os='ios'"/>
+    <classes>
+      <class name="com.experitest.auto.IOSDemoTest"/>
+    </classes>
+  </test> 
+ <test name="TestIOS2_Dhiraj">
+  	<parameter name="deviceQuery" value="@os='ios'"/>
+    <classes>
+      <class name="com.experitest.auto.IOSDemoTest"/>
+    </classes>
+  </test> 
+  <test name="TestAndroid1_Dhiraj">
+  	<parameter name="deviceQuery" value="@os='android'"/>
+    <classes>
+      <class name="com.experitest.auto.AndroidDemoTest"/>
+    </classes>
+  </test> 
+   <test name="TestAndroid2_Dhiraj">
+  	<parameter name="deviceQuery" value="@os='android'"/>
+    <classes>
+      <class name="com.experitest.auto.AndroidDemoTest"/>
+    </classes>
+  </test> 
+   <test name="TestAndroid3_Dhiraj">
+  	<parameter name="deviceQuery" value="@os='android'"/>
+    <classes>
+      <class name="com.experitest.auto.AndroidDemoTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
